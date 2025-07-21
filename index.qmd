@@ -1,7 +1,13 @@
 ---
-title: "M. Sahar Sajid"
+title: "M. Sahar Said"
+image: images/image_sahar.jpg
+about:
+  template: trestles
+image-width: 5cm
+image-shape: round
+links:
+- icon: github
+href: https://github.com/msaharsajid
 ---
 
-HI! I am a high school researcher currently attending Parkway South High. I have a passion for international relations, public policy, and data anayltics. Utilizing R programming, data visualtions, data analysis, I am willing and ready to tackle complex challenges at the intersection of data and public policy. On this website you will find a showcase of my projects, which demonstrate my ability to analyse current trends in data and produce insights into current issues with actionable steps to policy improvement. Click on relevant categories to see these projects.
-
-You can also check out my CV.
+Hi! I am Data Analyst, currently attending Parkway South High. I have a passion for public policy and data analytics. With a solid background in R programming, data analysis, visualization, and Geographic Information Systems (GIS), I’m ready to tackle the complex challenges at the intersection of data and public policy. On this website, you’ll find a showcase of my projects, demonstrating my ability to analyze societal issues, visualize data trends, and propose actionable recommendations for policy improvements. Click on relevant categories to see these projects.
