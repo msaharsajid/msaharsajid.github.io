@@ -1,6 +1,5 @@
 ---
 title: "M. Sahar Said"
-image: images/image_sahar.jpg
 about:
   template: trestles
 image-width: 5cm
