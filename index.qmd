@@ -1,5 +1,5 @@
 ---
-title: "M. Sahar Said"
+title: "M. Sahar Sajid"
 about:
   template: trestles
 image-width: 5cm
