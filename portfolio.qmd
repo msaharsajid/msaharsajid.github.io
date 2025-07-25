@@ -5,4 +5,7 @@ editor: visual
 ---
 
 You can check out some of the projects I conducted.
-
+<ul>
+<li><a href="portfolio/paper_template_2025-07-24.pdf" target="_blank">The Effect of Foreign Aid on Varying Regime Types</a></li>
+<li><a href="portfolio/project_x_presentation/project_x_presentation.html" target="_blank">The Effect of Foreign Aid on Varying Regime Types Presentation</a></li>
+</li>

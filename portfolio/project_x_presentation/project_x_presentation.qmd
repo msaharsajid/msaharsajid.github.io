@@ -1,0 +1,188 @@
+---
+title: The Effect Of Foreign Aid on Corruption in Varying Regime Types
+format:
+  clean-revealjs:
+    scrollable: true
+    self-contained: true
+    footer: "Sajid: The Effect Of Foreign Aid on Corruption in Varying Regime Types"
+author:
+  - name: Sahar Sajid
+    affiliation:
+      - mentor: Bogdan G. Popescu
+---
+
+## Table of Contents
+
+1.  Background
+    i)  Context
+    ii) Research Question
+2.  Literature
+3.  Empirics
+    i)  Argument
+    ii) Data
+        i)  figure A
+        ii) figure B
+        iii) figure C
+        iv) figure D
+    iii) Findings
+4.  Limitations and Critiques
+5.  Conclusion
+
+# Background {background-color="#40666e"}
+
+## Background
+
+### Context
+
+-   Focus on Global South: Latin America, Sub-Saharan Africa, etc.
+
+-   Low income Countries: More affected by aid, variance in impacts depending on income levels
+
+    ![](figures/WLD-income-map.png){width="728"}
+
+    source: *World Bank*
+
+## Background
+
+### Research Questions
+
+-   Foreign aid continues to be a primary tool of global engagement
+
+-   Few studies fully integrate regime type, donor leverage, and transparency outcomes all together.
+
+-   Can lead to more of an understanding in terms of how to fulfill donor goals in various regime types
+
+## Background {visibility="uncounted"}
+
+### Research Questions
+
+**Today**:
+
+:::: fragment
+::: callout-tip
+## Research Question
+
+How does foreign aid affect corruption in varying regime types?
+:::
+::::
+
+# Literature {background-color="#40666e"}
+
+## Literature
+
+-   **Camp One:** more corruption in autocracies, minimal to no impact on democracies
+
+    -- *Kono et al., 2009*
+
+    -- *Nieto-Matiz et. al. ,2020*
+
+-   **Camp Two:** Aid always causes corruption: regime type has no impact
+
+    -- *Knack, 2003*
+
+    -- *Kaylvitis et al., 2012*
+
+    -- *Bader et al., 201*
+
+-   **Camp Three:** Donor intent matters not regime type
+
+    -- *Bermeo, 2011*
+
+    -- *Brown, 2005*
+
+# Empirics {background-color="#40666e"}
+
+## Empirics
+
+### Argument and Theory
+
+-   Autocracies: Lack of voter base leads to uncontrolled growth in corruption
+
+-   Democracies: Corruption increases, need to appease voter base decreases it
+
+![](figures/flowchart.jpeg)
+
+## Empirics
+
+### Data
+
+**Figure A:**
+
+![](figures/FigureA.png)
+
+Sources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification
+
+Approach: Differences in Differences:
+
+$$
+\text{CPI}_{it} = \sum_{k = -4}^{10} \beta_k \cdot \mathbb{1}(\text{EventTime}_{it} = k) + \alpha_i + \gamma_t + \varepsilon_{it}
+$$
+
+-   $\text{CPI}_{it}$: is the corruption score for country $i$ in year $t$,
+
+-   $\mathbb{1}(\text{EventTime}_{it} = k)$: indicator for each year relative to treatment. -$\alpha_i$: Country fixed effects -$\gamma_t$-:year fixed effects are included to account for time-invariant country characteristics and common shocks.
+
+## Empirics
+
+### Data
+
+**Figure B:**
+
+![](figures/figure%20B.png)sources:
+
+## Empirics
+
+### Data
+
+**Figure C:**
+
+![](figures/figure%20C.png)sources:
+
+## Empirics
+
+### Data
+
+**Figure D: add figure D when you figure out how to fix the N/A thing**
+
+## Empirics
+
+### Findings
+
+-   Figure A: two contrasting trends:
+
+    -- Democracies: corruption decreases after an initial spike,
+
+    -- Autocracies: corruption steadily worsens following the aid shock
+
+-   Figure B: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies
+
+-   Figure C:
+
+    -- Autocracies: Aid goes in short term sectors,
+
+    -- Democracies: Aid goes to government
+
+-   Figure D: Protests in both
+
+    -- Democracies: decrease in corruption
+
+    -- Autocracies: corruption continues to increase
+
+# Limitations and Critiques {background-color="#40666e"}
+
+## Limitations and Critqiues
+
+-   Difference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows
+
+-  Excludes sub-national differences:
+    
+    -- Somaliland
+-   CPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.
+-   Ignores Conditionality
+-   Future studies could look at:
+
+    -- Sub-national variation
+   
+    -- Diffrent economic levels
+  
+    -- Donor type: Members of OPEC versus external sources i.e Chinao

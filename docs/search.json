@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "M. Sahar Said",
     "section": "",
-    "text": "Hi! I am Data Analyst, currently attending Parkway South High. I have a passion for public policy and data analytics. With a solid background in R programming, data analysis, visualization, and Geographic Information Systems (GIS), I’m ready to tackle the complex challenges at the intersection of data and public policy. On this website, you’ll find a showcase of my projects, demonstrating my ability to analyze societal issues, visualize data trends, and propose actionable recommendations for policy improvements. Click on relevant categories to see these projects."
+    "text": "Hi! I am Data Analyst, currently attending Parkway South High. I have a passion for public policy and data analytics. With a solid background in R programming, data analysis, visualization, and Geographic Information Systems (GIS), I’m ready to tackle the complex challenges at the intersection of data and public policy. On this website, you’ll find a showcase of my projects, demonstrating my ability to analyze societal issues, visualize data trends, and propose actionable recommendations for policy improvements. Click on relevant categories to see these projects.\nYou can also check out my CV!"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "You can check out some of the projects I conducted."
+    "text": "You can check out some of the projects I conducted.\n\n\nThe Effect of Foreign Aid on Varying Regime Types\n\n\nThe Effect of Foreign Aid on Varying Regime Types Presentation"
   },
   {
     "objectID": "portfolio.html#portfolio",
@@ -26,5 +26,96 @@
     "title": "Portfolio",
     "section": "",
     "text": "You can check out some of the projects I conducted."
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "",
+    "text": "Background\n\nContext\nResearch Question\n\nLiterature\nEmpirics\n\nArgument\nData\n\nfigure A\nfigure B\nfigure C\nfigure D\n\nFindings\n\nLimitations and Critiques\nConclusion"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#table-of-contents",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#table-of-contents",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Table of Contents",
+    "text": "Table of Contents\n\nBackground\n\nContext\nResearch Question\n\nLiterature\nEmpirics\n\nArgument\nData\n\nfigure A\nfigure B\nfigure C\nfigure D\n\nFindings\n\nLimitations and Critiques\nConclusion"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#background-1",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#background-1",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Background",
+    "text": "Background\nContext\n\nFocus on Global South: Latin America, Sub-Saharan Africa, etc.\nLow income Countries: More affected by aid, variance in impacts depending on income levels\n\nsource: World Bank"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#background-2",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#background-2",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Background",
+    "text": "Background\nResearch Questions\n\nForeign aid continues to be a primary tool of global engagement\nFew studies fully integrate regime type, donor leverage, and transparency outcomes all together.\nCan lead to more of an understanding in terms of how to fulfill donor goals in various regime types"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#background-3",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#background-3",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Background",
+    "text": "Background\nResearch Questions\nToday:\n\n\n\n\n\n\n\nResearch Question\n\n\nHow does foreign aid affect corruption in varying regime types?"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#literature-1",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#literature-1",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Literature",
+    "text": "Literature\n\nCamp One: more corruption in autocracies, minimal to no impact on democracies\n– Kono et al., 2009\n– Nieto-Matiz et. al. ,2020\nCamp Two: Aid always causes corruption: regime type has no impact\n– Knack, 2003\n– Kaylvitis et al., 2012\n– Bader et al., 201\nCamp Three: Donor intent matters not regime type\n– Bermeo, 2011\n– Brown, 2005"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-1",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-1",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nArgument and Theory\n\nAutocracies: Lack of voter base leads to uncontrolled growth in corruption\nDemocracies: Corruption increases, need to appease voter base decreases it"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-2",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-2",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nData\nFigure A:\n\nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment. -\\(\\alpha_i\\): Country fixed effects -\\(\\gamma_t\\)-:year fixed effects are included to account for time-invariant country characteristics and common shocks."
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nData\nFigure B:\nsources:"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nData\nFigure C:\nsources:"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-5",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-5",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nData\nFigure D: add figure D when you figure out how to fix the N/A thing"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-6",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-6",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nFindings\n\nFigure A: two contrasting trends:\n– Democracies: corruption decreases after an initial spike,\n– Autocracies: corruption steadily worsens following the aid shock\nFigure B: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies\nFigure C:\n– Autocracies: Aid goes in short term sectors,\n– Democracies: Aid goes to government\nFigure D: Protests in both\n– Democracies: decrease in corruption\n– Autocracies: corruption continues to increase"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critqiues",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critqiues",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Limitations and Critqiues",
+    "text": "Limitations and Critqiues\n\nDifference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows\nExcludes sub-national differences:\n– Somaliland\nCPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.\nIgnores Conditionality\nFuture studies could look at:\n– Sub-national variation\n– Diffrent economic levels\n– Donor type: Members of OPEC versus external sources i.e Chinao"
   }
 ]

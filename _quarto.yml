@@ -1,5 +1,6 @@
 project:
   type: website
+  title: M. Sahar Sajid
   output-dir: docs
 
 website:
@@ -7,7 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - portfolio.qmd
 
 format:
