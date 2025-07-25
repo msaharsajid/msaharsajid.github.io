@@ -1,9 +1,11 @@
 ---
 title: "M. Sahar Sajid"
+image: images/sahar_sajid.jpg
 about:
   template: trestles
-image-width: 5cm
-image-shape: round
+  image-width: 5cm
+  image-shape: round
+  
 links:
 - icon: github
 href: https://github.com/msaharsajid
