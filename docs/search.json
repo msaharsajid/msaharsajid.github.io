@@ -67,7 +67,7 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#literature-1",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Literature",
-    "text": "Literature\n\nCamp One: more corruption in autocracies, minimal to no impact on democracies\n– Kono et al., 2009\n– Nieto-Matiz et. al. ,2020\nCamp Two: Aid always causes corruption: regime type has no impact\n– Knack, 2003\n– Kaylvitis et al., 2012\n– Bader et al., 201\nCamp Three: Donor intent matters not regime type\n– Bermeo, 2011\n– Brown, 2005"
+    "text": "Literature\n\nCamp One: More corruption in autocracies, minimal to no impact on democracies\n\nKono et al., 2009\n\nNieto-Matiz et al., 2020\n\nCamp Two: Aid always causes corruption; regime type has no impact\n\nKnack, 2003\n\nKaylvitis et al., 2012\n\nBader et al., 201 ← (Is this missing a digit?)\n\nCamp Three: Donor intent matters, not regime type\n\nBermeo, 2011\n\nBrown, 2005"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-1",
@@ -81,41 +81,55 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-2",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure A:\n\nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment. -\\(\\alpha_i\\): Country fixed effects -\\(\\gamma_t\\)-:year fixed effects are included to account for time-invariant country characteristics and common shocks."
+    "text": "Empirics\nData\nFigure A: \nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment.\n\\(\\alpha_i\\): Country fixed effects\n\\(\\gamma_t\\): year fixed effects are included to account for time-invariant country characteristics and common shocks."
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure B:\nsources:"
+    "text": "Empirics\nData\nFigure B:\n sources: V-Dem: Regime Type, CRS: Total ODA disbursements over time"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure C:\nsources:"
+    "text": "Empirics\nData\nFigure C:\n sources: V-Dem: Regime Type, CRS: aid sectors"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-5",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-5",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure D: add figure D when you figure out how to fix the N/A thing"
+    "text": "Empirics\nData\nFigure D: add figure D when you figure out how to fix the N/A thing\nsources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center: Civil Unrest"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-6",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-6",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nFindings\n\nFigure A: two contrasting trends:\n– Democracies: corruption decreases after an initial spike,\n– Autocracies: corruption steadily worsens following the aid shock\nFigure B: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies\nFigure C:\n– Autocracies: Aid goes in short term sectors,\n– Democracies: Aid goes to government\nFigure D: Protests in both\n– Democracies: decrease in corruption\n– Autocracies: corruption continues to increase"
+    "text": "Empirics\nFindings\n\nFigure A: two contrasting trends:\n\nDemocracies: corruption decreases after an initial spike,\nAutocracies: corruption steadily worsens following the aid shock\n\nFigure B: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies\nFigure C:\n\nAutocracies: Aid goes in short term sectors,\nDemocracies: Aid goes to government\n\nFigure D: Protests in both\n\nDemocracies: decrease in corruption\nAutocracies: corruption continues to increase"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critqiues",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critqiues",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Limitations and Critqiues",
-    "text": "Limitations and Critqiues\n\nDifference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows\nExcludes sub-national differences:\n– Somaliland\nCPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.\nIgnores Conditionality\nFuture studies could look at:\n– Sub-national variation\n– Diffrent economic levels\n– Donor type: Members of OPEC versus external sources i.e Chinao"
+    "text": "Limitations and Critqiues\n\nDifference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows\nExcludes sub-national differences:\n\nSomaliland\n\nCPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.\nIgnores Conditionality\nFuture studies could look at:\n\nSub-national variation\nDifferent economic levels\nDonor type: Members of OPEC versus external sources i.e China"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Empirics",
+    "text": "Empirics\nArgument and Theory\n\nAutocracies: Lack of voter base leads to uncontrolled growth in corruption\nDemocracies: Corruption increases, need to appease voter base decreases it"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critiques-1",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#limitations-and-critiques-1",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Limitations and Critiques",
+    "text": "Limitations and Critiques\n\nDifference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows\nExcludes sub-national differences:\n\nSomaliland\n\nCPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.\nIgnores Conditionality\nFuture studies could look at:\n\nSub-national variation\nDifferent economic levels\nDonor type: Members of OPEC versus external sources i.e China"
   }
 ]

@@ -1,6 +1,5 @@
 project:
   type: website
-  title: M. Sahar Sajid
   output-dir: docs
 
 website:
