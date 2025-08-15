@@ -67,7 +67,7 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#literature-1",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Literature",
-    "text": "Literature\n\nCamp One: More corruption in autocracies, minimal to no impact on democracies\n\nKono et al., 2009\n\nNieto-Matiz et al., 2020\n\nCamp Two: Aid always causes corruption; regime type has no impact\n\nKnack, 2003\n\nKaylvitis et al., 2012\n\nBader et al., 201 ← (Is this missing a digit?)\n\nCamp Three: Donor intent matters, not regime type\n\nBermeo, 2011\n\nBrown, 2005"
+    "text": "Literature\n\nCamp One: More corruption in autocracies, minimal to no impact on democracies\n\nKono et al., 2009\n\nNieto-Matiz et al., 2020\n\nCamp Two: Aid always causes corruption; regime type has no impact\n\nKnack, 2003\n\nKaylvitis et al., 2012\n\nBader et al., 2001\n\nCamp Three: Donor intent matters, not regime type\n\nBermeo, 2011\n\nBrown, 2005"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-1",
@@ -81,21 +81,21 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-2",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure A: \nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment.\n\\(\\alpha_i\\): Country fixed effects\n\\(\\gamma_t\\): year fixed effects are included to account for time-invariant country characteristics and common shocks."
+    "text": "Empirics\nData\nFigure A: \nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment.\n\\(\\alpha_i\\): Country fixed effects\n\\(\\gamma_t\\): year fixed effects are included to account for time-invariant country characteristics and common shocks.\nUsed regression to show specific results"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure B:\n sources: V-Dem: Regime Type, CRS: Total ODA disbursements over time"
+    "text": "Empirics\nData\nFigure D:\n\nsources: V-Dem: Regime Type, CRS: Total ODA disbursements over time\nFigure E:\n\nsources: V-Dem: Regime Type, CRS: aid sectors\nFigure F:\n\nsources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center: Civil Unrest"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure C:\n sources: V-Dem: Regime Type, CRS: aid sectors"
+    "text": "Empirics\nFindings\n\nFigure A: two contrasting trends:\n\nDemocracies: corruption decreases after an initial spike,\nAutocracies: corruption steadily worsens following the aid shock\n\nFigure D: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies\nFigure E:\n\nAutocracies: Aid goes in short term sectors,\nDemocracies: Aid goes to government\n\nFigure F: Protests in both\n\nDemocracies: decrease in corruption\nAutocracies: corruption continues to increase"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-5",

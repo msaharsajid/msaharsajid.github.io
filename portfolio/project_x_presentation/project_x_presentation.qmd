@@ -76,7 +76,7 @@ How does foreign aid affect corruption in varying regime types?
 -   **Camp Two:** Aid always causes corruption; regime type has no impact
     -   *Knack, 2003*\
     -   *Kaylvitis et al., 2012*\
-    -   *Bader et al., 201* ← (Is this missing a digit?)
+    -   *Bader et al., 2001*
 -   **Camp Three:** Donor intent matters, not regime type
     -   *Bermeo, 2011*\
     -   *Brown, 2005*
@@ -115,27 +115,27 @@ $$
 
 -   $\gamma_t$: year fixed effects are included to account for time-invariant country characteristics and common shocks.
 
-## Empirics
-
-### Data
-
-**Figure B:**
-
-![](figures/figureB.png) sources: V-Dem: Regime Type, CRS: Total ODA disbursements over time
+-   Used regression to show specific results
 
 ## Empirics
 
 ### Data
 
-**Figure C:**
+**Figure D:**
 
-![](figures/figureC.png) sources: V-Dem: Regime Type, CRS: aid sectors
+![](figures/Figure_D.png)
 
-## Empirics
+sources: V-Dem: Regime Type, CRS: Total ODA disbursements over time
 
-### Data
+**Figure E:**
 
-**Figure D: add figure D when you figure out how to fix the N/A thing**
+![](figures/Figure_E.png)
+
+sources: V-Dem: Regime Type, CRS: aid sectors
+
+**Figure F:**
+
+![](figures/Figure_F.png)
 
 sources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center: Civil Unrest
 
@@ -148,14 +148,14 @@ sources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center
     -   Democracies: corruption decreases after an initial spike,
     -   Autocracies: corruption steadily worsens following the aid shock
 
--   Figure B: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies
+-   Figure D: democracies have more of a lag: shows institutional checks, shows why corruption improvement in figure A is not immediate in democracies
 
--   Figure C:
+-   Figure E:
 
     -   Autocracies: Aid goes in short term sectors,
     -   Democracies: Aid goes to government
 
--   Figure D: Protests in both
+-   Figure F: Protests in both
 
     -   Democracies: decrease in corruption
     -   Autocracies: corruption continues to increase
@@ -179,3 +179,11 @@ sources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center
     -   Sub-national variation
     -   Different economic levels
     -   Donor type: Members of OPEC versus external sources i.e China
+
+------------------------------------------------------------------------
+
+\
+ <br>  <br>  <br>  <br>  <br> [Thank you!]{style="color:#107895; font-size: 80px"}\
+
+Email: mariam.sahar09\@gmail.com\
+Website: **https://msaharsajid.github.io**
