@@ -20,13 +20,12 @@ author:
 3.  Empirics
     i)  Argument
     ii) Data
-        i)  figure A
-        ii) figure B
-        iii) figure C
-        iv) figure D
-    iii) Findings
-4.  Limitations and Critiques
+        i)  Methods
+        ii) Figures
+        iii) Findings
+4.  Discussion
 5.  Conclusion
+6.  Limitations and Critiques
 
 # Background {background-color="#40666e"}
 
@@ -38,9 +37,7 @@ author:
 
 -   Low income Countries: More affected by aid, variance in impacts depending on income levels
 
-    ![](figures/WLD-income-map.png){width="728"}
-
-    source: *World Bank*
+    ![](figures/Figure_Map.png)
 
 ## Background
 
@@ -95,13 +92,13 @@ How does foreign aid affect corruption in varying regime types?
 
 ## Empirics
 
-### Data
+### Methods
 
-**Figure A:** ![](figures/FigureA.png)
+This study utilizes a differences and differences approach for the main Figure, Figure 2. The goal of this figure is to see the direct affect of corruption on the CPI value after 25% of the GNI is made up of ODA in the selected countries. For the remaining figures (3-5) , I utilized multiple forms of quantitative analysis to explain the mechanisms behind Figure 2.
 
-Sources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification
+Sources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification, CRS: Total ODA disbursements over time, The Strauss Center: Civil Unrest
 
-Approach: Differences in Differences:
+For Figure 1: I utilized the following equation
 
 $$
 \text{CPI}_{it} = \sum_{k = -4}^{10} \beta_k \cdot \mathbb{1}(\text{EventTime}_{it} = k) + \alpha_i + \gamma_t + \varepsilon_{it}
@@ -115,29 +112,25 @@ $$
 
 -   $\gamma_t$: year fixed effects are included to account for time-invariant country characteristics and common shocks.
 
--   Used regression to show specific results
-
 ## Empirics
 
-### Data
+### Figures
 
-**Figure D:**
+![](figures/Figure_2.png)
 
-![](figures/Figure_D.png)
+*When looking at Figure 2, it can be seen that countries that received the "treatment" start to and continue to experience changes in CPI levels*
 
-sources: V-Dem: Regime Type, CRS: Total ODA disbursements over time
+![](figures/figure_3.png)
 
-**Figure E:**
+*This aid lag could explain why it takes longer for the ultimate change democracies experience (less corruption) takes several years to occur*
 
-![](figures/Figure_E.png)
+![](figures/Figure_4.png)
 
-sources: V-Dem: Regime Type, CRS: aid sectors
+*The differences in aid allocation could explain why it takes longer for Autocracies to change. A majority of the aid in autocracies goes to problem management while a majority of aid in democracies goes to governmental sectors leading to more quick of a change in governmental corruption levels.*
 
-**Figure F:**
+![](figures/Figure_5.png)
 
-![](figures/Figure_F.png)
-
-sources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center: Civil Unrest
+*As can be seen above as protests occur in democracies, their corruption levels immediately decreases (CPI increases). This is due to the fact that democracies are reliant on the approval of their people to remain in power. Autocracies on the other hand seem to face no effects even as protests increase.*
 
 ## Empirics
 
@@ -159,6 +152,41 @@ sources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center
 
     -   Democracies: decrease in corruption
     -   Autocracies: corruption continues to increase
+
+# Discussion {background-color="#40666e"}
+
+## Discussion
+
+-   Large aid inflows reshape governance differently across regimes
+
+-   Democracies experience initial corruption shocks but institutions stabilize over time
+
+-   Autocracies face entrenched corruption as repression and weak oversight persist
+
+-   Public protest strengthens accountability in democracies but is suppressed in autocracies
+
+-   Sectoral allocation determines outcomes: education and infrastructure enhance transparency, fungible aid fuels rent-seeking
+
+-   Aid effectiveness is contingent on political context, not volume alone
+
+-   Donors must align disbursements with institutional capacity and oversight to prevent misuse
+
+# Conclusion and Application {background-color="#40666e"}
+
+## Conclusions and Applications
+
+***Conclusions:***
+
+1.  The impact of aid is shaped by regime type
+2.  Autocracies experience entrenched corruption with no reversal
+3.  Democracies lessen corruption over time in order to satisfy the voter base, due to the voter base's protests
+4.  Political context determines whether aid strengthens institutions or fuels rent-seeking
+
+***Applications***
+
+1.  Policy Design: Target aid to governance-enhancing sectors with strong oversight
+2.  Donor Strategy: Condition aid on transparency and institutional reform
+3.  Civic Engagement: Policy makers should support mechanisms that amplify protests and accountability in democracies
 
 # Limitations and Critiques {background-color="#40666e"}
 

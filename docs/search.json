@@ -39,14 +39,14 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#table-of-contents",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Table of Contents",
-    "text": "Table of Contents\n\nBackground\n\nContext\nResearch Question\n\nLiterature\nEmpirics\n\nArgument\nData\n\nfigure A\nfigure B\nfigure C\nfigure D\n\nFindings\n\nLimitations and Critiques\nConclusion"
+    "text": "Table of Contents\n\nBackground\n\nContext\nResearch Question\n\nLiterature\nEmpirics\n\nArgument\nData\n\nMethods\nFigures\nFindings\n\n\nDiscussion\nConclusion\nLimitations and Critiques"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#background-1",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#background-1",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Background",
-    "text": "Background\nContext\n\nFocus on Global South: Latin America, Sub-Saharan Africa, etc.\nLow income Countries: More affected by aid, variance in impacts depending on income levels\n\nsource: World Bank"
+    "text": "Background\nContext\n\nFocus on Global South: Latin America, Sub-Saharan Africa, etc.\nLow income Countries: More affected by aid, variance in impacts depending on income levels"
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#background-2",
@@ -81,14 +81,14 @@
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-2",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure A: \nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification\nApproach: Differences in Differences:\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment.\n\\(\\alpha_i\\): Country fixed effects\n\\(\\gamma_t\\): year fixed effects are included to account for time-invariant country characteristics and common shocks.\nUsed regression to show specific results"
+    "text": "Empirics\nMethods\nThis study utilizes a differences and differences approach for the main Figure, Figure 2. The goal of this figure is to see the direct affect of corruption on the CPI value after 25% of the GNI is made up of ODA in the selected countries. For the remaining figures (3-5) , I utilized multiple forms of quantitative analysis to explain the mechanisms behind Figure 2.\nSources: Transparency International: CPI, World Bank: Income Level and Percent GNI of ODA, V-Dem: Regime Classification, CRS: Total ODA disbursements over time, The Strauss Center: Civil Unrest\nFor Figure 1: I utilized the following equation\n\\[\n\\text{CPI}_{it} = \\sum_{k = -4}^{10} \\beta_k \\cdot \\mathbb{1}(\\text{EventTime}_{it} = k) + \\alpha_i + \\gamma_t + \\varepsilon_{it}\n\\]\n\n\\(\\text{CPI}_{it}\\): is the corruption score for country \\(i\\) in year \\(t\\),\n\\(\\mathbb{1}(\\text{EventTime}_{it} = k)\\): indicator for each year relative to treatment.\n\\(\\alpha_i\\): Country fixed effects\n\\(\\gamma_t\\): year fixed effects are included to account for time-invariant country characteristics and common shocks."
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "href": "portfolio/project_x_presentation/project_x_presentation.html#empirics-3",
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Empirics",
-    "text": "Empirics\nData\nFigure D:\n\nsources: V-Dem: Regime Type, CRS: Total ODA disbursements over time\nFigure E:\n\nsources: V-Dem: Regime Type, CRS: aid sectors\nFigure F:\n\nsources: V-Dem: Regime Type, Transparency International: CPI, The Strauss Center: Civil Unrest"
+    "text": "Empirics\nFigures\n\nWhen looking at Figure 2, it can be seen that countries that received the “treatment” start to and continue to experience changes in CPI levels\n\nThis aid lag could explain why it takes longer for the ultimate change democracies experience (less corruption) takes several years to occur\n\nThe differences in aid allocation could explain why it takes longer for Autocracies to change. A majority of the aid in autocracies goes to problem management while a majority of aid in democracies goes to governmental sectors leading to more quick of a change in governmental corruption levels.\n\nAs can be seen above as protests occur in democracies, their corruption levels immediately decreases (CPI increases). This is due to the fact that democracies are reliant on the approval of their people to remain in power. Autocracies on the other hand seem to face no effects even as protests increase."
   },
   {
     "objectID": "portfolio/project_x_presentation/project_x_presentation.html#empirics-4",
@@ -131,5 +131,19 @@
     "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
     "section": "Limitations and Critiques",
     "text": "Limitations and Critiques\n\nDifference-in-Differences event study assumes that treated and control countries would have followed similar paths in the absence of high ODA inflows\nExcludes sub-national differences:\n\nSomaliland\n\nCPI is a perception-based measure, which may lag behind actual corruption changes or be biased by media coverage and international scrutiny.\nIgnores Conditionality\nFuture studies could look at:\n\nSub-national variation\nDifferent economic levels\nDonor type: Members of OPEC versus external sources i.e China"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#discussion-1",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#discussion-1",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Discussion",
+    "text": "Discussion\n\nLarge aid inflows reshape governance differently across regimes\nDemocracies experience initial corruption shocks but institutions stabilize over time\nAutocracies face entrenched corruption as repression and weak oversight persist\nPublic protest strengthens accountability in democracies but is suppressed in autocracies\nSectoral allocation determines outcomes: education and infrastructure enhance transparency, fungible aid fuels rent-seeking\nAid effectiveness is contingent on political context, not volume alone\nDonors must align disbursements with institutional capacity and oversight to prevent misuse"
+  },
+  {
+    "objectID": "portfolio/project_x_presentation/project_x_presentation.html#conclusions-and-applications",
+    "href": "portfolio/project_x_presentation/project_x_presentation.html#conclusions-and-applications",
+    "title": "The Effect Of Foreign Aid on Corruption in Varying Regime Types",
+    "section": "Conclusions and Applications",
+    "text": "Conclusions and Applications\nConclusions:\n\nThe impact of aid is shaped by regime type\nAutocracies experience entrenched corruption with no reversal\nDemocracies lessen corruption over time in order to satisfy the voter base, due to the voter base’s protests\nPolitical context determines whether aid strengthens institutions or fuels rent-seeking\n\nApplications\n\nPolicy Design: Target aid to governance-enhancing sectors with strong oversight\nDonor Strategy: Condition aid on transparency and institutional reform\nCivic Engagement: Policy makers should support mechanisms that amplify protests and accountability in democracies"
   }
 ]
